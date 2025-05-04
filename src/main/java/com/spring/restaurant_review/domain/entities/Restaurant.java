@@ -1,4 +1,4 @@
-package com.spring.restaurant_review.entities;
+package com.spring.restaurant_review.domain.entities;
 
 import java.util.ArrayList;
 import java.util.List;

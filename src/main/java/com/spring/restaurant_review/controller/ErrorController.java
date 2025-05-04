@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spring.restaurant_review.dtos.ErrorDto;
+import com.spring.restaurant_review.domain.dtos.ErrorDto;
 import com.spring.restaurant_review.exceptions.BaseException;
 import com.spring.restaurant_review.exceptions.StorageException;
 

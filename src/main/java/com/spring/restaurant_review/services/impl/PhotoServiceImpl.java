@@ -8,7 +8,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.spring.restaurant_review.entities.Photo;
+import com.spring.restaurant_review.domain.entities.Photo;
 import com.spring.restaurant_review.services.PhotoService;
 import com.spring.restaurant_review.services.StorageService;
 

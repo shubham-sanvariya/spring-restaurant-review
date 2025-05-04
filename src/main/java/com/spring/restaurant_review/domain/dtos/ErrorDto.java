@@ -1,4 +1,4 @@
-package com.spring.restaurant_review.dtos;
+package com.spring.restaurant_review.domain.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

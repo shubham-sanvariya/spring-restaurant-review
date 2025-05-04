@@ -1,4 +1,4 @@
-package com.spring.restaurant_review.entities;
+package com.spring.restaurant_review.domain.entities;
 
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;

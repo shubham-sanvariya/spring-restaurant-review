@@ -1,5 +1,8 @@
-package com.spring.restaurant_review.entities;
+package com.spring.restaurant_review.domain.entities;
 
+import java.time.LocalDateTime;
+
+import org.springframework.data.elasticsearch.annotations.DateFormat;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
@@ -12,17 +15,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class User {
+public class Photo {
     
     @Field(type = FieldType.Keyword)
-    private String id;
+    private String url;
 
-    @Field(type = FieldType.Text)
-    private String username;
-
-    @Field(type = FieldType.Text)
-    private String givenName;
-
-    @Field(type = FieldType.Text)
-    private String familyName;
+    @Field(type = FieldType.Date, format = DateFormat.date_hour_minute_second)
+    private LocalDateTime uploadDate;
 }

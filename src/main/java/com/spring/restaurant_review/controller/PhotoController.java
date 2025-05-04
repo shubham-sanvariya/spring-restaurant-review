@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.spring.restaurant_review.dtos.PhotoDto;
-import com.spring.restaurant_review.entities.Photo;
+import com.spring.restaurant_review.domain.dtos.PhotoDto;
+import com.spring.restaurant_review.domain.entities.Photo;
 import com.spring.restaurant_review.mapper.PhotoMapper;
 import com.spring.restaurant_review.services.PhotoService;
 
