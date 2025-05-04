@@ -22,8 +22,7 @@ public class PhotoServiceImpl implements PhotoService{
     
     @Override
     public Optional<Resource> getPhotoAsResource(String id) {
-        // TODO Auto-generated method stub
-        return Optional.empty();
+        return storageService.loadAsResource(id);
     }
 
     @Override
