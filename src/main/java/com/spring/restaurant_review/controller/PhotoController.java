@@ -16,8 +16,6 @@ import com.spring.restaurant_review.entities.Photo;
 import com.spring.restaurant_review.mapper.PhotoMapper;
 import com.spring.restaurant_review.services.PhotoService;
 
-import java.net.http.HttpHeaders;
-
 import org.springframework.core.io.Resource;
 import lombok.RequiredArgsConstructor;
 
