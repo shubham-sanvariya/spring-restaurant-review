@@ -1,5 +1,7 @@
 package com.spring.restaurant_review.entities;
 
+import java.time.LocalDateTime;
+
 import org.springframework.data.elasticsearch.annotations.DateFormat;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
@@ -19,5 +21,5 @@ public class Photo {
     private String url;
 
     @Field(type = FieldType.Date, format = DateFormat.date_hour_minute_second)
-    private String uploadDate;
+    private LocalDateTime uploadDate;
 }
